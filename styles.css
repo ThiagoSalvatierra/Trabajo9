@@ -1,0 +1,88 @@
+* {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin:0;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background-color:#3C1478;
+  color:white;
+  width:100%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  color: grey;
+  background-color: darkgrey;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width:100%;
+}
+
+a:link, a:visited {
+  color:white;
+}
+
+.foot {
+     justify-content:space-around;
+}
+
+.monocolumn {
+  margin:auto;
+  width: 50%;
+  text-align: center;
+}
+
+.bicolumn {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.grid {
+  display: grid;
+  gap: 2%;
+}
+
+.boxed {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 5%;
+}
+
+/* Remover Padding Vertical */
+.rpv {
+ margin:2%;
+ margin-top:0;
+}
+
+/* Show (on) Hover (sh) */
+
+.sh {
+  display:none
+}
+
+/* Primary Hover (PH) */
+
+.ph:hover + .sh {
+  display:block;
+  transform: scale(1.5);
+}
